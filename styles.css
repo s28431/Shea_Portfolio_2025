@@ -1,0 +1,156 @@
+
+
+*{
+    margin:0px; 
+}
+
+body{
+    background-color: black;
+    z-index:-1;
+    overflow-x: hidden;
+}
+
+#splash{
+    background-color:orange;
+    font-size: large;
+    width:100vw;
+    height:100vh;
+    text-align: center; 
+    margin:0px;
+    position:relative;
+}
+
+.ZplashTitle{
+    z-index:2;
+    width:700px;
+    padding: 100px 0px 0px 50px;
+    position:relative;
+    margin: 0px auto;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+.ZplashPar{
+    z-index:2;
+    width:400px;
+    padding: 100px 0px 0px 0px;
+    position:relative;
+    top:-124px;
+}
+
+.splashTextP{
+    position:relative;
+    z-index:2;
+    font-size:20px;
+    top:-124px;
+    width:400px;
+    margin:auto;
+}
+
+
+.welcomBG{
+    position:absolute;
+    left:0%;
+    width:100vw;
+    height:100%;
+    z-index:1;
+    min-width:300px;
+}
+
+.navbar{
+    position:sticky;
+    background-color:oldlace;
+    color:black;
+    top:0px;
+    padding: 1% 10%;
+    text-align: center; 
+    z-index:100;
+}
+
+.ProjTitle{
+    color:oldlace;
+    z-index:2;
+    margin: 5% auto 1% auto;
+    width: 100vw;
+    height:10%;
+    text-align: center;
+    font-size:80px;
+}
+
+.Scraps{
+    display:grid;
+    grid-template: 50% 50% / 50% 50%;
+    width: 60%;
+    height:auto;
+    margin: auto;
+    padding:1% 5%;
+    background-image: url("/imgs/FriendsDoddlePoolShoes.png");
+    background-size:cover;
+}
+
+.projects {
+    opacity:60%;
+    width: 90%;
+    height:80%;
+    overflow: hidden;
+    border:10px solid;
+    border-image: linear-gradient(to right, #2C3155,#ADD8E6) 1;
+}
+
+.link{
+    color:black;
+}
+
+#about{
+    background-color:oldlace;
+    margin:auto;
+    padding-top:40px;
+    padding-bottom:404px;
+}
+
+#abttitle{
+    width:120px;
+    font-size:40px;
+    margin: 0px auto;
+}
+
+#abtpar{
+    width:200px;
+    margin:auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .ZplashTitle{
+    width:500px;
+    padding: 100px 0px 0px 10px;
+}
+.ZplashPar{
+    width:400px;
+}
+.splashTextP{
+    font-size:24px;
+}
+.Scraps {
+    width:80%
+}
+}
+@media screen and (max-width: 450px) {
+  .ProjTitle {
+    font-size: 40px;
+  }
+  .ZplashTitle{
+    width:300px;
+    padding: 100px 0px 0px 10px;
+}
+.ZplashPar{
+    width:200px;
+}
+.splashTextP{
+    width:100px;
+    font-size:20px;
+}
+.Scraps{
+   width:90%;
+}
+
+}

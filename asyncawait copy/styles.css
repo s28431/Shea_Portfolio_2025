@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+}
+
+p{
+    color:brown;
+}
+
+section{
+    background-color: oldlace;
+    border: 5px solid #654321;
+    padding:0px 10px;
+    color:#654321;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    margin:10px auto;
+    max-width: 1000px;
+    min-width: 300px;
+    text-align:center;
+}
+
+h1{
+    color:#654321;
+    margin: auto;
+    width:200px;
+    text-align:center;
+}
+
+button{
+    color:#654321;
+    background-color: antiquewhite;
+    margin:0px 0px 20px 0px
+}
+
+img{
+
+}
+
+.imageP{
+    height: 300px;
+    background-color: wheat;
+    margin: auto 10px;
+    
+}

@@ -1,0 +1,136 @@
+
+*{
+    margin:0px; 
+}
+
+body{
+    background-color: black;
+    color:white;
+    overflow-x: hidden;
+}
+
+#navbar{
+    position:sticky;
+    background-color:white;
+    color:black;
+    top:0px;
+    padding: 1% 10%;
+    text-align: center; 
+    z-index:100;
+}
+
+#splash{
+    width:800px;
+    margin:auto;
+    text-align:center;
+    padding: 50px 0px 50px 0px;
+}
+
+#benifits{
+    width:800px;
+    margin:auto;
+    text-align:center;
+    padding: 50px 0px 50px 0px;
+}
+
+#trust{
+    width:800px;
+    margin:auto;
+    text-align:center;
+    padding: 50px 0px 50px 0px;
+}
+
+#sources{
+    width:800px;
+    margin:auto;
+    text-align:center;
+    padding: 50px 0px 50px 0px;
+}
+#end{
+    width:800px;
+    margin:auto;
+    padding: 50px 0px 50px 0px;
+}
+
+#button0{
+    color:red;
+    width:50px;
+}
+
+#button1{
+    color:red;
+    width:60%;
+    margin:20px 0px 0px 0px;
+}
+
+#button2{
+    color:red;
+    width:60%;
+    margin:20px 0px 0px 0px;
+}
+
+#button4{
+    color:red;
+    width:20%;
+}
+
+#button5{
+    color:red;
+    width:20%;
+    margin:20px 0px 0px 0px;
+}
+
+#button0:hover, #button1:hover, #button2:hover, #button4:hover, #button5:hover{
+    transform: scale(1.1);
+}
+
+#arrow{
+    width:10%
+}
+
+h1{
+    font-size:60px;
+}
+p{
+    margin:20px 0px 0px 0px;
+    font-size:20px;
+}
+
+hr{
+    border: 10px outset white;
+}
+.set1{
+    position: relative;
+    left:-20%
+}
+.set2{
+    position: relative;
+    left:22%
+}
+a{
+    color:red;
+}
+
+@media screen and (max-width: 800px) {
+    #splash, #trust, #benifits, #sources,#end{
+        width:400px;
+    }
+    h1{
+        font-size:30px;
+    }
+    p{
+        font-size:18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #splash, #trust, #benifits, #sources,#end{
+        width:200px;
+    }
+    h1{
+        font-size:20px;
+    }
+    p{
+        font-size:16px;
+    }
+}

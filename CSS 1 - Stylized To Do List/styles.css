@@ -1,14 +1,29 @@
-a{
-    text-decoration: none;
+body{
+  background-color:oldlace;
 }
-a:visited{
-    color:red;
-}
-
-a:active{
-    color:blue;
+.title{
+  padding-top:40px;
+  margin:auto;
+  width:100px;
 }
 
-a:hover{
-    color: green;
+.todo-list{
+  margin:auto;
+  width:300px;
+}
+.sub-item-link{
+  text-decoration:none;
+  color:black;
+}
+.sub-item-link:hover{
+  color:brown;
+}
+.sub-item-link:visited{
+  color:darkred;
+}
+.sub-item-link:active{
+  color:black;
+}
+.sub-item-link:focused{
+  color:red;
 }

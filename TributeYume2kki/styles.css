@@ -1,0 +1,100 @@
+
+body{
+    background-color:black;
+    font-family:'Courier New', monospace;
+}
+#main{
+  background-color: oldlace;
+  width: 900px;
+  margin:50px auto;
+  text-align:center;
+  padding: 10px 0px 30px 0px;
+}
+
+#image{
+  display:block;
+  max-width: 100%;
+  height: auto;
+  margin:auto;
+}
+
+#title{
+    font-size:50px;
+    width:600px;
+    margin:20px auto 0px auto;
+}
+
+#tribute-link{
+ color:black;
+ font-weight: bold;
+}
+
+.sector{
+    margin: 30px auto;
+    width:600px;
+    border: 10px solid;
+    border-image: linear-gradient(to right, #2C3155, #b24720) 1;
+    background-color: #fffcfa;
+    position: relative;
+}
+.head{
+    width:550px;
+    margin: 20px auto 5px auto;
+}
+
+.word{
+    width:400px;
+    margin:auto;
+    padding-bottom:20px;
+    font-size:20px
+}
+
+#img1{
+   position:absolute; 
+   top:50px;
+   left:510px;
+   width:200px;
+   height:auto;
+   z-index:1;
+}
+#img2{
+   position:absolute; 
+   top:50px;
+   left:-100px;
+   width:200px;
+   height:auto;
+   z-index:1;
+}
+#img3{
+   position:absolute; 
+   top:50px;
+   left:510px;
+   width:200px;
+   height:auto;
+   opacity:0%;
+   z-index:1;
+}
+#img4{
+   position:absolute; 
+   top:50px;
+   left:-100px;
+   width:200px;
+   height:auto;
+   opacity:0%;
+   z-index:1;
+}
+
+
+#img1:hover, #img2:hover {
+    opacity: 0%;
+    
+}
+
+#img3:hover, #img4:hover {
+    opacity: 100%;
+}
+
+
+
+
+
