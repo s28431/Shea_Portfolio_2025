@@ -8,6 +8,7 @@ const healthID = document.getElementById(`healthID`);
 const whyID = document.getElementById(`whyID`);
 const whereID = document.getElementById(`whereID`);
 const MNID = document.getElementById(`MNID`);
+const IMG = document.getElementById(`IMG`);
 
 let RandLoc;
 let RandNum;
@@ -91,13 +92,18 @@ async function newSitch() {
         MNID.innerText = `Number of Monsters: ${RandMN}`;
         monsterID.innerText = `Monster: ${data2.name}`;
         healthID.innerText = `Health of Monster: ${data2.hit_points}hp`;
+        //IMG.innerText = `<img src="http://localhost:3000${data.image}" alt="monster image"/>`
+        //console.log(`<img src="http://localhost:3000${data.image}" alt="monster image"/>`)
+
         //turns on the fav button since you now have a situation to favourite 
         FavBtn.disabled= false;
+
     }
     catch(error) {
         //incase of error :3
         console.log("Getting Monster API Request Failed", error);
     }
+    
     //gets a random location and console logs it YIPPEE
     let RandLoc = Math.floor(Math.random() * 24);
     console.log(wheres[RandLoc]);
